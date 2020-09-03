@@ -1,0 +1,61 @@
+.containerBox{
+    display: flex;
+    max-height: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.content img{
+    width: 500px;
+    height: 350px;
+    max-height: 350px;
+}
+
+.imageLeftSide{
+    width: 50%;
+    text-align: center;
+    margin: 1%;
+}
+
+.formDiv form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 7% 2%;
+    max-height: 400px;
+}
+
+.formDiv{
+    width: 30%;
+    border-left: 1px solid;
+}
+
+.formDiv form .adultInput{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.formDiv form .adultInput input{
+    width: 60%;
+}
+
+.book-now{
+    text-align: center;
+    margin-left: 30%;
+}
+
+.prettier{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.book-now input{
+    padding: 1%;
+}
+
+.hotelDetails{
+    margin: 2%;
+}
